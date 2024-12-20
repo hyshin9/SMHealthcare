@@ -70,8 +70,8 @@ void inputExercise(HealthData* health_data) {
 	
     // ToCode: to enter the exercise to be chosen with exit option
 	printf("7. Exit\n");
-	printf("Select the desired number and duration:");
-	scanf("%i %i", &choice, &duration);
+	printf("Select the desired number:");
+	scanf("%d", &choice);
     
     // To enter the duration of the exercise
     printf("Enter the duration of the exercise (in min.): ");
@@ -79,18 +79,20 @@ void inputExercise(HealthData* health_data) {
 
     // ToCode: to enter the selected exercise and total calcories burned in the health data
     if(choice==1){
-    	saveData(HEALTHFILEPATH, "600");
+    	saveData(HEALTHFILEPATH, choice*duration);
     }	else if(choice==2){
-    		saveData((HEALTHFILEPATH, 900);
+    		saveData((HEALTHFILEPATH, choice*duration);
     	}	else if(choice==3){
-    			saveData((HEALTHFILEPATH, 615);
+    			saveData((HEALTHFILEPATH, choice*duration);
     		}	else if(choice==4){
-    				saveData((HEALTHFILEPATH, 615);
+    				saveData((HEALTHFILEPATH, choice*duration);
     			}	else if(choice==5){
-    					saveData((HEALTHFILEPATH, 615);
+    					saveData((HEALTHFILEPATH, choice*duration);
     				}	else if(choice==6){
-    						saveData((HEALTHFILEPATH, 615);
+    						saveData((HEALTHFILEPATH, choice*duration);
     					}	else if(choice==7){
+    							printf("Exit the system.\n");
+    							printf("=======================================================================\n");
     							//exit
 							}
 }
