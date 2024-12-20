@@ -89,7 +89,25 @@ void printHealthData(const HealthData* health_data) {
     
 	
 	// ToCode: to print out the recommendtaion depending on the current total calories burned and intake    
-    
+    if(1300+(choice*duration)*(choice*duration)-/*kcal*/==0){
+    	print("You have consumed all your calories for today!");
+    	return 0;
+    	
+    	else if(1300+(choice*duration)*(choice*duration)-/*kcal*/<0){
+    		printf("[Warning] Too few calories!")
+    		
+    		else(1300+(choice*duration)*(choice*duration)-/*kcal*/>0){
+    			printf("Please exercise for your health!");
+    				if(/*kcal*/>=1300){
+    					printf("Your total calorie intake for today has reached your goal!");
+					} else {
+							printf("Your total calorie intake for today has not reached your goal, remember to eat more!!");
+							}
+					}
+			}
+		}
+    	
+	}
     
 	 printf("=======================================================================\n");
 }
