@@ -61,10 +61,15 @@ void inputExercise(HealthData* health_data) {
     
     // ToCode: to provide the options for the exercises to be selected
     printf("The list of exercises: \n");
-
-
+	printf("1. walking - 4 kcal\n");
+	printf("2. running - 11 kcal\n");
+	printf("3. riding - 5 kcal\n");
+	printf("4. swimming - 12 kcal\n");
+	printf("5. pilates - 4 kcal\n");
+	printf("6. yoga - 2 kcal\n");
+	
     // ToCode: to enter the exercise to be chosen with exit option
-
+	printf("7. Exit\n");
  
     
     // To enter the duration of the exercise
