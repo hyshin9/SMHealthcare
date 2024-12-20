@@ -64,14 +64,15 @@ void printHealthData(const HealthData* health_data) {
 	// ToCode: to print out the saved history of exercises
 	printf("=========================== History of Exercise =======================\n");
   	fprintf(file, "%i - ", choice);
-  	fprintf(file, "%i kcal\n", choice*duration);
+  	fprintf(file, "%i kcal\n", choice*duration); //calories burned (option*min)
   	
   
     printf("=======================================================================\n");
 
     // ToCode: to print out the saved history of diets
     printf("============================= History of Diet =========================\n");
-
+	fprintf(file, "%i - ", choice);
+	fprintf(file, "%i kcal\n", ); //calories intake
 
     printf("=======================================================================\n");
 
