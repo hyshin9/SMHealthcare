@@ -26,8 +26,8 @@ int main() {
     // Tocode: to read the list of the exercises and diets
     FILE *fpd=NULL; //fpd=open diets.txt
     FILE *fpe=NULL; //fpe=open exercise.txt
-    fpe=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/exercises.txt");
-    fpd=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/diets.txt");
+    fpe=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/exercises.txt","r");
+    fpd=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/diets.txt","r");
     
     fgets(char* str, 50, FILE *fpe);
     fgets(char* str, 50, FILE *fpd);
