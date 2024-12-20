@@ -93,4 +93,4 @@ void inputExercise(HealthData* health_data) {
     					}	else if(choice==7){
     							//exit
 							}
-						
+}
