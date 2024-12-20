@@ -26,11 +26,11 @@ int main() {
     // Tocode: to read the list of the exercises and diets
     FILE *fpd=NULL; //fpd=open diets.txt
     FILE *fpe=NULL; //fpe=open exercise.txt
-    fpe=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/exercises.txt","r");
+    fpe=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/exercises.txt","r"); //read mode
     fpd=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/diets.txt","r");
     
-    fgets(char* str, 50, FILE *fpe);
-    fgets(char* str, 50, FILE *fpd);
+    fgets(char* str, 50, FILE *fpe); //file read
+    fgets(char* str, 50, FILE *fpd); 
 
     // ToCode: to run the "Healthcare Management Systems" until all calories are used up or the user wants to exit the system
     do {
@@ -51,21 +51,21 @@ int main() {
         
 		// ToCode: to run the sysmtem based on the user's choice
         switch (choice) {
-            case 1:
+            case 1: //Exercise
             	loadExercises();
             	inputExercise();
                 break;
                 
-            case 2:
+            case 2: //Diet
             	loadDiets();
             	inputDiet();
                 break;
                 
-            case 3:
+            case 3: //Show logged information
             	printHealthData();
                 break;
                 
-            case 4:
+            case 4: //Exit
             	
     			printf("Exit the system.\n");
     			printf("=======================================================================\n");
