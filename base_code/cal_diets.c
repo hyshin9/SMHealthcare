@@ -34,8 +34,8 @@ void loadDiets(const char* DIETFILEPATH) {
     }
 
      // ToCode: to read a list of the diets from the given file
-    while (file != NULL) {
-    	fp=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/diets.txt","r");
+    while (file != EOF) {
+    	file=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/diets.txt","r"); //local path of diets.txt 
     	
         if (diet_list_size >= MAX_DIETS){
         	break;
