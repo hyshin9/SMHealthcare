@@ -92,3 +92,5 @@ void inputDiet(HealthData* health_data) {
     			saveData((HEALTHFILEPATH, "615"); //615=tteobokki kcal
     		}
 }
+
+	
