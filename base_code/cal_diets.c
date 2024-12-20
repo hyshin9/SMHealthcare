@@ -91,4 +91,4 @@ void inputDiet(HealthData* health_data) {
     		}	else(choice==4){
     				//exit
 				}
-		
+}
