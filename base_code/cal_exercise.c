@@ -80,24 +80,17 @@ void inputExercise(HealthData* health_data) {
     // ToCode: to enter the selected exercise and total calcories burned in the health data
     if(choice==1){
     	saveData(HEALTHFILEPATH, "600");
-    	else if(choice==2){
+    }	else if(choice==2){
     		saveData((HEALTHFILEPATH, 900);
-    		else if(choice==3){
+    	}	else if(choice==3){
     			saveData((HEALTHFILEPATH, 615);
-    			else if(choice==4){
+    		}	else if(choice==4){
     				saveData((HEALTHFILEPATH, 615);
-    				else if(choice==5){
+    			}	else if(choice==5){
     					saveData((HEALTHFILEPATH, 615);
-    					else if(choice==6){
+    				}	else if(choice==6){
     						saveData((HEALTHFILEPATH, 615);
-    						else if(choice==7){
+    					}	else if(choice==7){
     							//exit
 							}
-						}
-					}
-				}
-			}
-		}   	
-	}
-
-}
+						
