@@ -85,10 +85,10 @@ void inputDiet(HealthData* health_data) {
 
     // ToCode: to enter the total calories intake in the health data
 	if(choice==1){
-    	saveData(HEALTHFILEPATH, "600");
+    	saveData(HEALTHFILEPATH, "600"); //600=rice kcal
     }	else if(choice==2){
-    		saveData((HEALTHFILEPATH, "900");
+    		saveData((HEALTHFILEPATH, "900"); //900=pizza kcal
     	}	else (choice==3){
-    			saveData((HEALTHFILEPATH, "615");
+    			saveData((HEALTHFILEPATH, "615"); //615=tteobokki kcal
     		}
 }
