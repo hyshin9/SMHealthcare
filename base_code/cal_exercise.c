@@ -70,7 +70,8 @@ void inputExercise(HealthData* health_data) {
 	
     // ToCode: to enter the exercise to be chosen with exit option
 	printf("7. Exit\n");
- 
+	printf("Select the desired number and duration:");
+	scanf("%i %i", &choice, &duration);
     
     // To enter the duration of the exercise
     printf("Enter the duration of the exercise (in min.): ");
