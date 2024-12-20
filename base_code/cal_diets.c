@@ -36,7 +36,7 @@ void loadDiets(const char* DIETFILEPATH) {
      // ToCode: to read a list of the diets from the given file
     while (file != EOF) {
     	file=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/diets.txt","r"); //local path of diets.txt 
-    	
+    
         if (diet_list_size >= MAX_DIETS){
         	break;
 		}
@@ -58,13 +58,17 @@ void inputDiet(HealthData* health_data) {
     
     // ToCode: to provide the options for the diets to be selected
     printf("The list of diets:\n");
-    printf("");
+    printf("1. rice - 600 Kcal\n");
+    printf("2. pizza - 900 Kcal\n");
+    printf("3. tteokbokki - 615 Kcal\n");
     
 	// ToCode: to enter the diet to be chosen with exit option
-    
+    printf("4. Exit");
+	printf("Select the desired number:");
+	scanf("%i", &choice);
 
     // ToCode: to enter the selected diet in the health data
-    
+    fprintf(file, "%i\n", choice)
 
     // ToCode: to enter the total calories intake in the health data
 
