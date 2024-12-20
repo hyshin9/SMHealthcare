@@ -70,13 +70,13 @@ void inputDiet(HealthData* health_data) {
     // ToCode: to enter the selected diet in the health data'
     
 	if(choice==1){
-    	saveData();
+    	saveData(HEALTHFILEPATH, "rice");
     	else if(choice==2){
-    		saveData();
+    		saveData((HEALTHFILEPATH, pizza);
     		else if(choice==3){
-    			saveData();
+    			saveData((HEALTHFILEPATH, tteokbokki);
     			else(choice==4){
-    				saveData();
+    				//exit
 				}
 			}
 		}   	
