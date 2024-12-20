@@ -24,7 +24,13 @@ int main() {
     HealthData health_data = {0};
     
     // Tocode: to read the list of the exercises and diets
+    FILE *fpd=NULL; //fpd=open diets.txt
+    FILE *fpe=NULL; //fpe=open exercise.txt
+    fpe=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/exercises.txt");
+    fpd=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/diets.txt");
     
+    fgets(char* str, 50, FILE *fpe);
+    fgets(char* str, 50, FILE *fpd);
 
     // ToCode: to run the "Healthcare Management Systems" until all calories are used up or the user wants to exit the system
     do {
