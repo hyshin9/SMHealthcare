@@ -80,7 +80,10 @@ void printHealthData(const HealthData* health_data) {
 	// ToCode: to print out the saved history of calories including basal metabolic rate, 
 	// total calories burned, total calories intake, and the remaining calories
 	printf("============================== Total Calories =========================\n");
- 
+ 	printf("Basal Metabolic Rate: 1300 kcal\n");
+ 	printf("Total calories burned: %i kcal\n", (choice*duration)*(choice*duration));
+ 	printf("Total calories intake: %i kcal\n", /*kcal*/);
+ 	printf("The remaining calories: %i kcal", 1300+(choice*duration)*(choice*duration)-/*kcal*/); //basal metabolic rate+calories burned-calories intake
  
     printf("=======================================================================\n \n");
     
