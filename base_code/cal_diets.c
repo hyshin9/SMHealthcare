@@ -71,32 +71,24 @@ void inputDiet(HealthData* health_data) {
     
 	if(choice==1){
     	saveData(HEALTHFILEPATH, "rice");
-    	else if(choice==2){
+    }	else if(choice==2){
     		saveData((HEALTHFILEPATH, pizza);
-    		else if(choice==3){
+    	}	else if(choice==3){
     			saveData((HEALTHFILEPATH, tteokbokki);
-    			else(choice==4){
+    		}	else(choice==4){
     				//exit
 				}
-			}
-		}   	
-	}
     
     fprintf(file, "%i\n", choice)
 
     // ToCode: to enter the total calories intake in the health data
 	if(choice==1){
     	saveData(HEALTHFILEPATH, "600");
-    	else if(choice==2){
+    }	else if(choice==2){
     		saveData((HEALTHFILEPATH, 900);
-    		else if(choice==3){
+    	}	else if(choice==3){
     			saveData((HEALTHFILEPATH, 615);
-    			else(choice==4){
+    		}	else(choice==4){
     				//exit
 				}
-			}
-		}   	
-	}
-
-}
-
+		
