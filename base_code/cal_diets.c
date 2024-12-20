@@ -67,7 +67,20 @@ void inputDiet(HealthData* health_data) {
 	printf("Select the desired number:");
 	scanf("%i", &choice);
 
-    // ToCode: to enter the selected diet in the health data
+    // ToCode: to enter the selected diet in the health data'
+    if(choice==1){
+    	
+    	if else(choice==2){
+    		
+    		if else(choice==3){
+    			
+    			else(choice==4){
+    				
+				}
+			}
+		}   	
+	}
+    
     fprintf(file, "%i\n", choice)
 
     // ToCode: to enter the total calories intake in the health data
