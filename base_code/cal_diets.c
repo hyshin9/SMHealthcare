@@ -65,18 +65,20 @@ void inputDiet(HealthData* health_data) {
 	// ToCode: to enter the diet to be chosen with exit option
     printf("4. Exit");
 	printf("Select the desired number:");
-	scanf("%i", &choice);
+	scanf("%d", &choice);
 
     // ToCode: to enter the selected diet in the health data'
     
 	if(choice==1){
     	saveData(HEALTHFILEPATH, "rice");
     }	else if(choice==2){
-    		saveData((HEALTHFILEPATH, pizza);
+    		saveData((HEALTHFILEPATH, "pizza");
     	}	else if(choice==3){
-    			saveData((HEALTHFILEPATH, tteokbokki);
+    			saveData((HEALTHFILEPATH, "tteokbokki");
     		}	else(choice==4){
-    				//exit
+    				printf("Exit the system.\n");
+    				printf("=======================================================================\n");
+                	//exit
 				}
     
     fprintf(file, "%i\n", choice)
@@ -85,10 +87,8 @@ void inputDiet(HealthData* health_data) {
 	if(choice==1){
     	saveData(HEALTHFILEPATH, "600");
     }	else if(choice==2){
-    		saveData((HEALTHFILEPATH, 900);
-    	}	else if(choice==3){
-    			saveData((HEALTHFILEPATH, 615);
-    		}	else(choice==4){
-    				//exit
-				}
+    		saveData((HEALTHFILEPATH, "900");
+    	}	else (choice==3){
+    			saveData((HEALTHFILEPATH, "615");
+    		}
 }
