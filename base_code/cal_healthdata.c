@@ -94,6 +94,13 @@ void printHealthData(const HealthData* health_data) {
     	return 0;    	
     }	else if(1300+(choice*duration)*(choice*duration)-/*kcal*/<0){
     		printf("[Warning] Too few calories!");
+    		if(/*kcal*/==1300){
+    			printf("Your total calorie intake for today has reached your goal!");
+			} else if(/*kcal*/<1300){
+				printf("Your total calorie intake for today has not reached your goal, remember to eat more!");
+			} else {
+				printf("You have eaten more calories than planned today, but you have exersiced too much!");
+			}
     		
     	}	else(1300+(choice*duration)*(choice*duration)-/*kcal*/>0){
     			printf("Please exercise for your health!");
