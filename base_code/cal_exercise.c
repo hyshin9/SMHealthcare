@@ -34,7 +34,8 @@ void loadExercises(const char* EXERCISEFILEPATH) {
     }
 
     // ToCode: to read a list of the exercises from the given file
-    while ( ) {
+    while (file!=EOF) {
+    	file=fopen("C:/Users/hyshi/Downloads/SMHealthcare/SMHealthcare/base_code/exercises.txt", "r"); //local path of exercise.txt
     	
         if (exercise_list_size >= MAX_EXERCISES){
         	break;
