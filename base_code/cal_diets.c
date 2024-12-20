@@ -68,14 +68,15 @@ void inputDiet(HealthData* health_data) {
 	scanf("%i", &choice);
 
     // ToCode: to enter the selected diet in the health data'
-    if(choice==1){
-    	
-    	if else(choice==2){
-    		
-    		if else(choice==3){
-    			
+    
+	if(choice==1){
+    	saveData();
+    	else if(choice==2){
+    		saveData();
+    		else if(choice==3){
+    			saveData();
     			else(choice==4){
-    				
+    				saveData();
 				}
 			}
 		}   	
